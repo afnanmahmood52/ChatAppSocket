@@ -22,7 +22,7 @@ export default function Chat() {
         setRoom(room)
 
         console.log(socket)
-    })
+    }, [END_POINT, location.search])
 
     return (
         <div>
